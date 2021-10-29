@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_banner.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_banner.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_kynanglaixe.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_kynanglaixe.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_logout.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_logout.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_login.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_login.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_tracuuluat.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_tracuuluat.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_baloo_thambi.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\baloo_thambi.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dang_ky.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_dang_ky.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_thisathach.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_thisathach.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_hoclythuyet.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_hoclythuyet.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_banner.jpg.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\banner.jpg"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\anim_bottom_anim.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\anim\\bottom_anim.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_home.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_home.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_banner_index.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_banner_index.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_architects_daughter.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\architects_daughter.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\raw_cauhoi.json.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\raw\\cauhoi.json"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dang_nhap.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_dang_nhap.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bienbao.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_bienbao.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_profile.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_profile.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_hotro.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_hotro.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_bungee_inline.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\bungee_inline.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_thongtin.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_thongtin.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_caveat_brush.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\caveat_brush.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\menu_main_menu.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_onthi.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_onthi.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hoc_bien_bao.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_hoc_bien_bao.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_avt.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_avt.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_meoonthi.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_meoonthi.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_bangers_medium.ttf.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\bangers_medium.ttf"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_registerbackground.jpg.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\registerbackground.jpg"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_aclonica_regular.ttf.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\aclonica_regular.ttf"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_welcome.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\anim_top_anim.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\anim\\top_anim.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_loginbackground.jpg.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\loginbackground.jpg"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_thisathach.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_thisathach.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_lubalin_demi.otf.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\lubalin_demi.otf"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_header_menu.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\header_menu.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]

@@ -1842,6 +1842,7 @@ int drawable ic_nav_thisathach 0x7f07009e
 int drawable ic_nav_thongtin 0x7f07009f
 int drawable ic_thisathach 0x7f070072
 int drawable ic_tracuuluat 0x7f070073
+int drawable inforbackground 0x7f0700a8
 int drawable loginbackground 0x7f0700a6
 int drawable material_cursor_drawable 0x7f070074
 int drawable material_ic_calendar_black_24dp 0x7f070075
@@ -2110,6 +2111,7 @@ int id ifRoom 0x7f0900d6
 int id ignore 0x7f0900d7
 int id ignoreRequest 0x7f0900d8
 int id image 0x7f0900d9
+int id img_btnHome 0x7f09021c
 int id img_welcome 0x7f090203
 int id immediateStop 0x7f0900da
 int id included 0x7f0900db
@@ -2359,8 +2361,10 @@ int id time 0x7f0901c7
 int id title 0x7f0901c8
 int id titleDividerNoCustom 0x7f0901c9
 int id title_template 0x7f0901ca
+int id title_text 0x7f090215
 int id toggle 0x7f0901cb
 int id toolbar 0x7f0901cc
+int id toolfake 0x7f09021d
 int id top 0x7f0901cd
 int id topPanel 0x7f0901ce
 int id touch_outside 0x7f0901cf
@@ -2372,6 +2376,13 @@ int id transition_position 0x7f0901d4
 int id transition_scene_layoutid_cache 0x7f0901d5
 int id transition_transform 0x7f0901d6
 int id triangle 0x7f0901d7
+int id tv1 0x7f09021e
+int id tv2 0x7f09021f
+int id tv3 0x7f090220
+int id tv4 0x7f090221
+int id tv5 0x7f090222
+int id tv6 0x7f090223
+int id tv7 0x7f090224
 int id tv_bienbao 0x7f0901d8
 int id tv_copyright 0x7f090201
 int id tv_hoclythuyet 0x7f0901d9
@@ -2475,8 +2486,10 @@ int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_dang_ky 0x7f0c0074
 int layout activity_dang_nhap 0x7f0c0072
+int layout activity_ho_tro 0x7f0c007a
 int layout activity_hoc_bien_bao 0x7f0c0078
 int layout activity_main 0x7f0c001c
+int layout activity_thong_tin_ung_dung 0x7f0c0079
 int layout activity_welcome 0x7f0c0073
 int layout custom_dialog 0x7f0c001d
 int layout design_bottom_navigation_item 0x7f0c001e

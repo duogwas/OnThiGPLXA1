@@ -44,16 +44,16 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_hoclythuyet.png"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_banner.jpg.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\banner.jpg"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_banner.jpg.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\banner.jpg"
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\anim_bottom_anim.xml.flat",
@@ -100,6 +100,10 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_thong_tin_ung_dung.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_thong_tin_ung_dung.xml"
+    },
+    {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_hotro.png.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_hotro.png"
     },
@@ -116,12 +120,20 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\bungee_inline.xml"
     },
     {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_inforbackground.png.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\inforbackground.png"
+    },
+    {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_thongtin.png.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_thongtin.png"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_caveat_brush.xml.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\caveat_brush.xml"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ho_tro.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\activity_ho_tro.xml"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

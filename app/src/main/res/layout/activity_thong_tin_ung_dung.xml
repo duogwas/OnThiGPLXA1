@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ThongTinUngDung"
+    android:background="@drawable/inforbackground">
+    <RelativeLayout
+        android:id="@+id/toolfake"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E1F5FE">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="THÔNG TIN ỨNG DỤNG"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/img_btnHome"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_nav_home"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolfake"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="ỨNG DỤNG ÔN THI GPLX A1"
+        android:textColor="#FFF176"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="Đây là ứng dụng giúp bạn học lý thuyết để chuẩn bị cho kỳ thi sát hạch lái xe."
+        android:textColor="#D32F2F"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Giảng viên hướng dẫn: Ths.Mai Thị Thúy Hà"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Sinh viên thực hiện:"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="1. Kiều Hoàng Dương - 1910A03"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2. Phùng Văn Đạt - 1910A03"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="3. Nguyễn Trường Giang - 1910A03"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -64,22 +64,29 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
 
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         Menu menu = nav_view.getMenu();
+        Intent intent;
         switch (menuItem.getItemId()) {
             case R.id.nav_home:
                 break;
             case R.id.nav_login:
-                Intent intent = new Intent(MainActivity.this, DangNhap.class);
+                intent = new Intent(MainActivity.this, DangNhap.class);
                 startActivity(intent);
-
                 menu.findItem(R.id.nav_logout).setVisible(true);
                 menu.findItem(R.id.nav_profile).setVisible(true);
                 menu.findItem(R.id.nav_login).setVisible(false);
-
                 break;
             case R.id.nav_logout:
                 menu.findItem(R.id.nav_logout).setVisible(false);
                 menu.findItem(R.id.nav_profile).setVisible(false);
                 menu.findItem(R.id.nav_login).setVisible(true);
+                break;
+            case R.id.nav_thongtin:
+                intent = new Intent(MainActivity.this, ThongTinUngDung.class);
+                startActivity(intent);
+                break;
+            case R.id.nav_hotro:
+                intent = new Intent(MainActivity.this, HoTro.class);
+                startActivity(intent);
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);

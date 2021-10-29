@@ -1843,6 +1843,7 @@ drawable ic_nav_thisathach
 drawable ic_nav_thongtin
 drawable ic_thisathach
 drawable ic_tracuuluat
+drawable inforbackground
 drawable loginbackground
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2111,6 +2112,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_btnHome
 id img_welcome
 id immediateStop
 id included
@@ -2360,8 +2362,10 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_text
 id toggle
 id toolbar
+id toolfake
 id top
 id topPanel
 id touch_outside
@@ -2373,6 +2377,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv1
+id tv2
+id tv3
+id tv4
+id tv5
+id tv6
+id tv7
 id tv_bienbao
 id tv_copyright
 id tv_hoclythuyet
@@ -2476,8 +2487,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dang_ky
 layout activity_dang_nhap
+layout activity_ho_tro
 layout activity_hoc_bien_bao
 layout activity_main
+layout activity_thong_tin_ung_dung
 layout activity_welcome
 layout custom_dialog
 layout design_bottom_navigation_item

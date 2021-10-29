@@ -54,5 +54,4 @@ public class WelcomeActivity extends AppCompatActivity {
             }
         },Welcome_screen);
     }
-
 }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\d033d0a4869757500b01256d22c25854\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
@@ -43,25 +43,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\cdab6885b438a759bbebc3bab0411230\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\364cd11e18b25eea3f64fd0a4b722373\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3b9b53105509eef60ab6de9e9a319267\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:5-41:19
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:5-43:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -84,52 +84,64 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\De
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:11:9-49
-activity#hou.duogwas.onthigplxa1.Activity.DangKy
+activity#hou.duogwas.onthigplxa1.Activity.HoTro
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:13:13-44
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:13:13-43
+activity#hou.duogwas.onthigplxa1.Activity.ThongTinUngDung
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:16:13-53
+activity#hou.duogwas.onthigplxa1.Activity.DangKy
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:19:13-44
 activity#hou.duogwas.onthigplxa1.Activity.DangNhap
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:16:9-18:40
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:18:13-37
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:17:13-46
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:22:13-46
 activity#hou.duogwas.onthigplxa1.Activity.HocBienBao
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:21:13-48
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:25:13-48
 activity#hou.duogwas.onthigplxa1.Activity.WelcomeActivity
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:27:9-29:48
 	android:exported
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:25:13-53
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:27:13-31:29
-action#android.intent.action.MAIN
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:17-69
-	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:30:17-77
-	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:13-53
 activity#hou.duogwas.onthigplxa1.Activity.MainActivity
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:9-36:39
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:35:13-50
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:31:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:27-74
 meta-data#preloaded_fonts
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:38:9-40:57
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:40:9-42:57
 	android:resource
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:40:13-54
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:42:13-54
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:39:13-43
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:41:13-43
 uses-sdk
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml

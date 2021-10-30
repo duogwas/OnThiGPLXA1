@@ -13,9 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5459a465-2858-4c31-bb9b-d1a5d5ba3b5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dang_nhap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dang_nhap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_thong_tin_ung_dung.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_thong_tin_ung_dung.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

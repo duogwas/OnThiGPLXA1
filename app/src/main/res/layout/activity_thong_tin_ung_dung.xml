@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.ThongTinUngDung"
-    android:background="@drawable/inforbackground">
+    android:background="@color/white">
     <RelativeLayout
         android:id="@+id/toolfake"
         android:layout_width="match_parent"
@@ -39,9 +39,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/toolfake"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="80dp"
         android:text="ỨNG DỤNG ÔN THI GPLX A1"
-        android:textColor="#FFF176"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -50,12 +50,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv1"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
         android:gravity="center"
         android:padding="10sp"
         android:text="Đây là ứng dụng giúp bạn học lý thuyết để chuẩn bị cho kỳ thi sát hạch lái xe."
-        android:textColor="#D32F2F"
+        android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -65,9 +66,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:text="Giảng viên hướng dẫn: Ths.Mai Thị Thúy Hà"
-        android:textColor="#43A047"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -77,9 +78,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="Sinh viên thực hiện:"
-        android:textColor="#43A047"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -89,9 +90,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:text="1. Kiều Hoàng Dương - 1910A03"
-        android:textColor="#43A047"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="italic" />
 
@@ -103,7 +104,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="2. Phùng Văn Đạt - 1910A03"
-        android:textColor="#43A047"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="italic" />
 
@@ -115,7 +116,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="3. Nguyễn Trường Giang - 1910A03"
-        android:textColor="#43A047"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="italic" />
 

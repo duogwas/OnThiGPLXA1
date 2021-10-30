@@ -9,16 +9,11 @@
     android:padding="20dp"
     tools:context=".Activity.DangKy">
 
-<!--    <ImageView-->
-<!--        android:layout_width="140dp"-->
-<!--        android:layout_height="130dp"-->
-<!--        android:src="@drawable/ic_banner" />-->
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
         android:layout_marginLeft="110dp"
+        android:layout_marginTop="95dp"
         android:fontFamily="@font/caveat_brush"
         android:text="ĐĂNG KÝ"
         android:textColor="#000"
@@ -94,16 +89,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#00000000"
-        android:textColor="#000"
-        android:text="đăng ký" />
+        android:text="đăng ký"
+        android:textColor="#000" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/reg_login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:textColor="#000"
         android:layout_marginTop="15dp"
-        android:text="Bạn đã có tài khoản, Đăng nhập ngay" />
+        android:background="#00000000"
+        android:text="Bạn đã có tài khoản, Đăng nhập ngay"
+        android:textColor="#000" />
 
 </LinearLayout>

@@ -72,7 +72,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="5dp"
-            android:elevation="0dp"
             android:background="#00000000"
             android:text="Quên mật khẩu ?" />
 

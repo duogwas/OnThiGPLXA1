@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         /********Hide or show menu items********/
         Menu menu = nav_view.getMenu();
         menu.findItem(R.id.nav_logout).setVisible(false);
-        menu.findItem(R.id.nav_profile).setVisible(false);
     }
 
     private void AnhXa() {
@@ -72,12 +71,10 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
                 intent = new Intent(MainActivity.this, DangNhap.class);
                 startActivity(intent);
                 menu.findItem(R.id.nav_logout).setVisible(true);
-                menu.findItem(R.id.nav_profile).setVisible(true);
                 menu.findItem(R.id.nav_login).setVisible(false);
                 break;
             case R.id.nav_logout:
                 menu.findItem(R.id.nav_logout).setVisible(false);
-                menu.findItem(R.id.nav_profile).setVisible(false);
                 menu.findItem(R.id.nav_login).setVisible(true);
                 break;
             case R.id.nav_thongtin:

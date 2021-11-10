@@ -59,6 +59,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.ÔnThiGPLXA1" >
         <activity
+            android:name="hou.duogwas.onthigplxa1.Adapter.Custom_lv_bienbao"
+            android:exported="false" />
+        <activity
+            android:name="hou.duogwas.onthigplxa1.Adapter.custom_lv_bienbao"
+            android:exported="false" />
+        <activity
             android:name="hou.duogwas.onthigplxa1.Activity.HoTro"
             android:exported="false" />
         <activity

@@ -2534,6 +2534,7 @@ id customPanel
 id custom_action_bar_title
 id cut
 id cv_bienbao
+id cv_hocbienbao
 id cv_hoclythuyet
 id cv_kynanglaixe
 id cv_meoonthi
@@ -2763,6 +2764,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_bienbao
 id img_btnHome
 id img_welcome
 id immediateStop
@@ -2829,6 +2831,7 @@ id list_item
 id ll_content_root
 id loading_progress
 id logo_name
+id lv_bienbao
 id masked
 id match_constraint
 id match_parent
@@ -3149,6 +3152,7 @@ id tv_meoonthi
 id tv_name
 id tv_slogan1
 id tv_slogan2
+id tv_tenbien
 id tv_thisathach
 id tv_tracuuluat
 id unchecked
@@ -3263,6 +3267,7 @@ layout activity_main
 layout activity_thong_tin_ung_dung
 layout activity_welcome
 layout custom_dialog
+layout custom_lv_bienbao
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

@@ -16,6 +16,10 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_logout.png"
     },
     {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_lv_bienbao.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\layout\\custom_lv_bienbao.xml"
+    },
+    {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_login.png.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_login.png"
     },
@@ -44,16 +48,16 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_hoclythuyet.png"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_banner.jpg.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\banner.jpg"
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_banner.jpg.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\banner.jpg"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\anim_bottom_anim.xml.flat",

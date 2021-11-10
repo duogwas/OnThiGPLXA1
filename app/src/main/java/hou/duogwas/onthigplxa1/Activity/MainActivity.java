@@ -4,12 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -18,10 +20,11 @@ import com.google.android.material.navigation.NavigationView.OnNavigationItemSel
 
 import hou.duogwas.onthigplxa1.R;
 
-public class MainActivity extends AppCompatActivity implements OnNavigationItemSelectedListener{
+public class MainActivity extends AppCompatActivity implements OnNavigationItemSelectedListener, View.OnClickListener{
     DrawerLayout drawerLayout;
     NavigationView nav_view;
     Toolbar toolbar;
+    CardView cv_hocbienbao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         AnhXa();
+        setOnClick();
         nav_view.setNavigationItemSelectedListener(this::onNavigationItemSelected);
 
         /********Toolbar********/
@@ -51,6 +55,11 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         drawerLayout = findViewById(R.id.drawerlayout);
         nav_view = findViewById(R.id.nav_view);
         toolbar = findViewById(R.id.toolbar);
+        cv_hocbienbao = findViewById(R.id.cv_hocbienbao);
+    }
+
+    private void setOnClick() {
+        cv_hocbienbao.setOnClickListener(this);
     }
 
     @Override
@@ -62,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         }
     }
 
+    //navigation item onclick
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         Menu menu = nav_view.getMenu();
         Intent intent;
@@ -106,5 +116,20 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onClick(View view) {
+        Intent intent =new Intent();
+        switch (view.getId()) {
+            case R.id.cv_hocbienbao:
+                intent = new Intent(MainActivity.this,HocBienBao.class);
+                startActivity(intent);
+                break;
+
+            default:
+                break;
+        }
+
     }
 }

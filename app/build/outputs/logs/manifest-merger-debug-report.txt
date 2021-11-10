@@ -1,131 +1,227 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\d033d0a4869757500b01256d22c25854\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\c18f85807e14bcd01bb8e8f6d29c1fc3\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\38a4400ae8dd95bc9747872afeab006c\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e83c61d08e7d6a18054b889d35435de4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\c84966d631d6e0b75d6bb70ed84f0980\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell PC\.gradle\caches\transforms-3\85b785c0f464fd717fc0c3319209a901\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\9a774ddf16a6c57e321338de37d1e41c\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell PC\.gradle\caches\transforms-3\5eeb40ee79f0a3a18b8785bf16b7a869\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\0ddda9702ac3cc6295fde736e43ac060\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\ff22d43b9c58a17396f4d0be46fee4e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e4894677dd6b25cfa14192e9c70b4dd3\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\18df5355695c88d1f8c8fa013cd2b5aa\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b82ee3598c1d957ab5d129dd4a9ec094\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\062928a1947588817b4a3e14c078b234\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f33cd038928cd18bbffecee3f47b30b5\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\8739ef9f080f0ee06c65833001c9e975\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2fd6d2ffabb31454472517d795a3d324\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f60e756b887be98279beb1d6adc7b6ce\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\bc661fbb93df02fd062b2985ab38e216\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\9e43550e678ca1123a99dd5e1b82ae60\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\a5368c3d8fa512d63c099bc06dd07e67\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\14ce081772fbaefa60f9b525e8651f2f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\80436f9f5c068f0cd8ec08b0ef1a5dd1\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3ea107b6ed2649da649e1a9c0eaa34d3\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\a9930091f3bfc854fbc8f4a779138ac2\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\359e151d84ce0547207a9385a6cf3837\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d09f9b19d46d40ab78b2c05c9bc3bdda\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e0645c7e10687eebae73844e7c09cc04\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\4b48d18b90de8c4339b4c1aff40a9f65\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\6b3f8b97bfa165aa24d54e758bf31862\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\32384a04bd6e5a2a6f25214da7b607db\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2f8e445222e4e599ddd0550fcb0ff3e9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\524c6a3849ffabd24a7a3da79bf65f22\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\cdab6885b438a759bbebc3bab0411230\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\364cd11e18b25eea3f64fd0a4b722373\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3b9b53105509eef60ab6de9e9a319267\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\b824b3359554109c5fc0cac36aef2bd4\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\78a4435dcba0c234b842e56a284bd36c\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d35f1f6ed766dddd65834e1a0a354e6f\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\5cf24f85751022cc8d61fa35574dab33\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\695ef878998b0c0e78a87d37fbfabfe0\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\8cef91b97a4669707e8ebac02aa49bb6\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:2:1-39:12
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:2:1-25:12
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:2:1-44:12
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:2:1-31:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:2:1-21:12
+MERGED from [com.huawei.hms:ads:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3b6261ae1ea3b2eea6475e5012c40e18\transformed\jetified-ads-3.4.48.301\AndroidManifest.xml:3:1-15:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f2f597a45671d6705f0418b830336de6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell PC\.gradle\caches\transforms-3\837b6172a9c1e251a791e47dcef207cb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\bdbbde65d3470406607bd8c723ab1dcf\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell PC\.gradle\caches\transforms-3\4f4bb6a27792e9ae6afc857222c59cd1\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\50a38ee5477948059fb5611eac39fee3\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\bcdfedf3039bb61752f16ebb9a770175\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\baa7968dc148e48932fe6cb882ebc510\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f70457132eb660cd4e516030c4edf1b4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\932cf82b16a4f632f86acf71f073f2bd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\9c44a411ccf3137181b760870026b1a1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d900346cd9f441393958f26058effcc4\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\c7a6ec45abeac1c30d9e73c10f63dff1\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\ee19d40ba4ca5e3974fab7f23eb644a9\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d2904ef20792d484d90244be51f4c7b7\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\16be5d9a2c27e9f2bdfa0049022d23f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\423d6e8d84e13626f7c79a7075d158ca\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\b86a65b4825c77994d4f375644f1d99c\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\db176b5618a10447f0bd4128f83ea989\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\f60e094a4f2a90efef13fecb25073edb\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\9309efd2091c202f01c6b4ffcf0a1112\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\8fd213722b4416ed313ab2a3fbe095fb\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\10629be260524d4be8d96dced65845bd\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\e9406f2604eafd742c21c0ef57735c88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\1edef5115522c73cc04af3faff40f715\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\24d478b0f0372e4c61691a37752c7692\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\a5e06367653a28144c7819fa18a5f654\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\fed78016646e87310b11d7219753665c\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\943a3c72abc0cc1780a6168e95c481a4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d827c24f492b9dfe0272819838779370\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\eedb03c3604d762dd5467d709480fb23\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2e10ce8e74dd0b911625671cbff18013\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\75fad22272e18dc05bf97749c1d0f202\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:2:1-288:12
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:2:1-16:12
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:2:1-47:12
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\eae0871edf885e1b03a0b5b38999ab5a\transformed\jetified-network-grs-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:2:1-29:12
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\e948ac55164298c341568dd39044c8ca\transformed\jetified-log-6.1.0.302\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:3:1-20:12
+MERGED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:3:1-18:12
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2b6f0c2682e61fd3d814468eb3f3246b\transformed\jetified-network-framework-compat-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\7b564c694bb7135d1ebb487474ad1134\transformed\jetified-network-common-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:hatool:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\67e65441ca671c92a947435650c55c79\transformed\jetified-hatool-6.1.0.302\AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:2:1-15:12
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:3:1-67:12
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c40f78326a0e3adcb9e86539d25b57bf\transformed\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:2:1-13:12
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\c3e0d243d0947cb3eae62d57dc5d786e\transformed\jetified-security-encrypt-1.1.5.306\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:2:11-69
-application
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:5-43:19
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d09f9b19d46d40ab78b2c05c9bc3bdda\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d09f9b19d46d40ab78b2c05c9bc3bdda\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-	android:supportsRtl
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:10:9-35
-	android:label
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:8:9-41
-	android:roundIcon
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:9:9-54
-	android:icon
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:7:9-43
-	android:allowBackup
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:9-35
-	android:theme
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:11:9-49
-activity#hou.duogwas.onthigplxa1.Activity.HoTro
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:12:9-14:40
-	android:exported
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:14:13-37
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:14:5-79
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:14:5-79
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:13:5-79
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:13:13-43
-activity#hou.duogwas.onthigplxa1.Activity.ThongTinUngDung
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:5-76
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:15:5-76
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:15:5-76
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:14:5-76
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:22-73
+application
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\78a4435dcba0c234b842e56a284bd36c\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\78a4435dcba0c234b842e56a284bd36c\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d35f1f6ed766dddd65834e1a0a354e6f\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d35f1f6ed766dddd65834e1a0a354e6f\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:9:5-37:19
+MERGED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:9:5-37:19
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:29:5-42:19
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:29:5-42:19
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:23:5-29:19
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:23:5-29:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.hms:ads:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3b6261ae1ea3b2eea6475e5012c40e18\transformed\jetified-ads-3.4.48.301\AndroidManifest.xml:12:5-13:19
+MERGED from [com.huawei.hms:ads:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3b6261ae1ea3b2eea6475e5012c40e18\transformed\jetified-ads-3.4.48.301\AndroidManifest.xml:12:5-13:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\e9406f2604eafd742c21c0ef57735c88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\e9406f2604eafd742c21c0ef57735c88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:29:5-286:19
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:29:5-286:19
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:20:5-45:19
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:20:5-45:19
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\e948ac55164298c341568dd39044c8ca\transformed\jetified-log-6.1.0.302\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\e948ac55164298c341568dd39044c8ca\transformed\jetified-log-6.1.0.302\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:14:5-18:19
+MERGED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:14:5-18:19
+MERGED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:12:5-16:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:16:5-65:19
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:16:5-65:19
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c40f78326a0e3adcb9e86539d25b57bf\transformed\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:10:5-11:19
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c40f78326a0e3adcb9e86539d25b57bf\transformed\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:10:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:14:9-49
+activity#hou.duogwas.onthigplxa1.Activity.HoTro
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:16:13-53
-activity#hou.duogwas.onthigplxa1.Activity.DangKy
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:16:13-43
+activity#hou.duogwas.onthigplxa1.Activity.ThongTinUngDung
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:19:13-44
-activity#hou.duogwas.onthigplxa1.Activity.DangNhap
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:19:13-53
+activity#hou.duogwas.onthigplxa1.Activity.DangKy
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:22:13-46
-activity#hou.duogwas.onthigplxa1.Activity.HocBienBao
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:22:13-44
+activity#hou.duogwas.onthigplxa1.Activity.DangNhap
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:25:13-48
-activity#hou.duogwas.onthigplxa1.Activity.WelcomeActivity
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:27:9-29:48
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:25:13-46
+activity#hou.duogwas.onthigplxa1.Activity.HocBienBao
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:13-53
-activity#hou.duogwas.onthigplxa1.Activity.MainActivity
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:13-48
+activity#hou.duogwas.onthigplxa1.Activity.WelcomeActivity
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:31:13-50
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:31:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
@@ -136,96 +232,164 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:27-74
-meta-data#preloaded_fonts
-ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:40:9-42:57
-	android:resource
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:42:13-54
+activity#hou.duogwas.onthigplxa1.Activity.MainActivity
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:39:9-41:39
+	android:exported
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:41:13-43
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:40:13-50
+meta-data#preloaded_fonts
+ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:43:9-45:57
+	android:resource
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:45:13-54
+	android:name
+		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:44:13-43
 uses-sdk
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\d033d0a4869757500b01256d22c25854\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\d033d0a4869757500b01256d22c25854\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b401bbd386ef73872b0073bd55ee1f0b\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\03e2d46c86bd93bfb33846ce2f4303cc\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\c18f85807e14bcd01bb8e8f6d29c1fc3\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\c18f85807e14bcd01bb8e8f6d29c1fc3\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\38a4400ae8dd95bc9747872afeab006c\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\38a4400ae8dd95bc9747872afeab006c\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e83c61d08e7d6a18054b889d35435de4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e83c61d08e7d6a18054b889d35435de4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\c84966d631d6e0b75d6bb70ed84f0980\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\c84966d631d6e0b75d6bb70ed84f0980\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell PC\.gradle\caches\transforms-3\85b785c0f464fd717fc0c3319209a901\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell PC\.gradle\caches\transforms-3\85b785c0f464fd717fc0c3319209a901\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\9a774ddf16a6c57e321338de37d1e41c\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\9a774ddf16a6c57e321338de37d1e41c\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell PC\.gradle\caches\transforms-3\5eeb40ee79f0a3a18b8785bf16b7a869\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell PC\.gradle\caches\transforms-3\5eeb40ee79f0a3a18b8785bf16b7a869\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\0ddda9702ac3cc6295fde736e43ac060\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\0ddda9702ac3cc6295fde736e43ac060\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\ff22d43b9c58a17396f4d0be46fee4e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\ff22d43b9c58a17396f4d0be46fee4e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e4894677dd6b25cfa14192e9c70b4dd3\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e4894677dd6b25cfa14192e9c70b4dd3\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\18df5355695c88d1f8c8fa013cd2b5aa\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\18df5355695c88d1f8c8fa013cd2b5aa\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b82ee3598c1d957ab5d129dd4a9ec094\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\b82ee3598c1d957ab5d129dd4a9ec094\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\062928a1947588817b4a3e14c078b234\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\062928a1947588817b4a3e14c078b234\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f33cd038928cd18bbffecee3f47b30b5\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f33cd038928cd18bbffecee3f47b30b5\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\8739ef9f080f0ee06c65833001c9e975\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\8739ef9f080f0ee06c65833001c9e975\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2fd6d2ffabb31454472517d795a3d324\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2fd6d2ffabb31454472517d795a3d324\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f60e756b887be98279beb1d6adc7b6ce\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f60e756b887be98279beb1d6adc7b6ce\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\bc661fbb93df02fd062b2985ab38e216\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\bc661fbb93df02fd062b2985ab38e216\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\9e43550e678ca1123a99dd5e1b82ae60\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\9e43550e678ca1123a99dd5e1b82ae60\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\a5368c3d8fa512d63c099bc06dd07e67\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\a5368c3d8fa512d63c099bc06dd07e67\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\14ce081772fbaefa60f9b525e8651f2f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\14ce081772fbaefa60f9b525e8651f2f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\80436f9f5c068f0cd8ec08b0ef1a5dd1\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\80436f9f5c068f0cd8ec08b0ef1a5dd1\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3ea107b6ed2649da649e1a9c0eaa34d3\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3ea107b6ed2649da649e1a9c0eaa34d3\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\a9930091f3bfc854fbc8f4a779138ac2\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\a9930091f3bfc854fbc8f4a779138ac2\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\359e151d84ce0547207a9385a6cf3837\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\359e151d84ce0547207a9385a6cf3837\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d09f9b19d46d40ab78b2c05c9bc3bdda\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d09f9b19d46d40ab78b2c05c9bc3bdda\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e0645c7e10687eebae73844e7c09cc04\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e0645c7e10687eebae73844e7c09cc04\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\4b48d18b90de8c4339b4c1aff40a9f65\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\4b48d18b90de8c4339b4c1aff40a9f65\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\6b3f8b97bfa165aa24d54e758bf31862\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\6b3f8b97bfa165aa24d54e758bf31862\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\32384a04bd6e5a2a6f25214da7b607db\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\32384a04bd6e5a2a6f25214da7b607db\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2f8e445222e4e599ddd0550fcb0ff3e9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2f8e445222e4e599ddd0550fcb0ff3e9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\524c6a3849ffabd24a7a3da79bf65f22\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\524c6a3849ffabd24a7a3da79bf65f22\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\cdab6885b438a759bbebc3bab0411230\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\cdab6885b438a759bbebc3bab0411230\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\364cd11e18b25eea3f64fd0a4b722373\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\364cd11e18b25eea3f64fd0a4b722373\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3b9b53105509eef60ab6de9e9a319267\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\3b9b53105509eef60ab6de9e9a319267\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\b824b3359554109c5fc0cac36aef2bd4\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\b824b3359554109c5fc0cac36aef2bd4\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\78a4435dcba0c234b842e56a284bd36c\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Dell PC\.gradle\caches\transforms-3\78a4435dcba0c234b842e56a284bd36c\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d35f1f6ed766dddd65834e1a0a354e6f\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\d35f1f6ed766dddd65834e1a0a354e6f\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\5cf24f85751022cc8d61fa35574dab33\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\5cf24f85751022cc8d61fa35574dab33\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\695ef878998b0c0e78a87d37fbfabfe0\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\695ef878998b0c0e78a87d37fbfabfe0\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\8cef91b97a4669707e8ebac02aa49bb6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\8cef91b97a4669707e8ebac02aa49bb6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:6:5-9:61
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:6:5-9:61
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:ads:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3b6261ae1ea3b2eea6475e5012c40e18\transformed\jetified-ads-3.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3b6261ae1ea3b2eea6475e5012c40e18\transformed\jetified-ads-3.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f2f597a45671d6705f0418b830336de6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f2f597a45671d6705f0418b830336de6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell PC\.gradle\caches\transforms-3\837b6172a9c1e251a791e47dcef207cb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell PC\.gradle\caches\transforms-3\837b6172a9c1e251a791e47dcef207cb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\bdbbde65d3470406607bd8c723ab1dcf\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\bdbbde65d3470406607bd8c723ab1dcf\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell PC\.gradle\caches\transforms-3\4f4bb6a27792e9ae6afc857222c59cd1\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell PC\.gradle\caches\transforms-3\4f4bb6a27792e9ae6afc857222c59cd1\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\50a38ee5477948059fb5611eac39fee3\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\50a38ee5477948059fb5611eac39fee3\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\bcdfedf3039bb61752f16ebb9a770175\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\bcdfedf3039bb61752f16ebb9a770175\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\baa7968dc148e48932fe6cb882ebc510\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\baa7968dc148e48932fe6cb882ebc510\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f70457132eb660cd4e516030c4edf1b4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\f70457132eb660cd4e516030c4edf1b4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\932cf82b16a4f632f86acf71f073f2bd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\932cf82b16a4f632f86acf71f073f2bd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\9c44a411ccf3137181b760870026b1a1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\9c44a411ccf3137181b760870026b1a1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d900346cd9f441393958f26058effcc4\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d900346cd9f441393958f26058effcc4\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\c7a6ec45abeac1c30d9e73c10f63dff1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\c7a6ec45abeac1c30d9e73c10f63dff1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\ee19d40ba4ca5e3974fab7f23eb644a9\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\ee19d40ba4ca5e3974fab7f23eb644a9\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d2904ef20792d484d90244be51f4c7b7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d2904ef20792d484d90244be51f4c7b7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\16be5d9a2c27e9f2bdfa0049022d23f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\16be5d9a2c27e9f2bdfa0049022d23f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\423d6e8d84e13626f7c79a7075d158ca\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\423d6e8d84e13626f7c79a7075d158ca\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\b86a65b4825c77994d4f375644f1d99c\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell PC\.gradle\caches\transforms-3\b86a65b4825c77994d4f375644f1d99c\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\db176b5618a10447f0bd4128f83ea989\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\db176b5618a10447f0bd4128f83ea989\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\f60e094a4f2a90efef13fecb25073edb\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\f60e094a4f2a90efef13fecb25073edb\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\9309efd2091c202f01c6b4ffcf0a1112\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\9309efd2091c202f01c6b4ffcf0a1112\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\8fd213722b4416ed313ab2a3fbe095fb\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\8fd213722b4416ed313ab2a3fbe095fb\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\10629be260524d4be8d96dced65845bd\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\10629be260524d4be8d96dced65845bd\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\e9406f2604eafd742c21c0ef57735c88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell PC\.gradle\caches\transforms-3\e9406f2604eafd742c21c0ef57735c88\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\1edef5115522c73cc04af3faff40f715\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\1edef5115522c73cc04af3faff40f715\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\24d478b0f0372e4c61691a37752c7692\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\24d478b0f0372e4c61691a37752c7692\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\a5e06367653a28144c7819fa18a5f654\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell PC\.gradle\caches\transforms-3\a5e06367653a28144c7819fa18a5f654\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\fed78016646e87310b11d7219753665c\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell PC\.gradle\caches\transforms-3\fed78016646e87310b11d7219753665c\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\943a3c72abc0cc1780a6168e95c481a4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\943a3c72abc0cc1780a6168e95c481a4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d827c24f492b9dfe0272819838779370\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\d827c24f492b9dfe0272819838779370\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\eedb03c3604d762dd5467d709480fb23\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\eedb03c3604d762dd5467d709480fb23\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2e10ce8e74dd0b911625671cbff18013\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\2e10ce8e74dd0b911625671cbff18013\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\75fad22272e18dc05bf97749c1d0f202\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\75fad22272e18dc05bf97749c1d0f202\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:8:5-11:380
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:8:5-11:380
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\eae0871edf885e1b03a0b5b38999ab5a\transformed\jetified-network-grs-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\eae0871edf885e1b03a0b5b38999ab5a\transformed\jetified-network-grs-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\e948ac55164298c341568dd39044c8ca\transformed\jetified-log-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\e948ac55164298c341568dd39044c8ca\transformed\jetified-log-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2b6f0c2682e61fd3d814468eb3f3246b\transformed\jetified-network-framework-compat-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2b6f0c2682e61fd3d814468eb3f3246b\transformed\jetified-network-framework-compat-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\7b564c694bb7135d1ebb487474ad1134\transformed\jetified-network-common-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\7b564c694bb7135d1ebb487474ad1134\transformed\jetified-network-common-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:hatool:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\67e65441ca671c92a947435650c55c79\transformed\jetified-hatool-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hatool:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\67e65441ca671c92a947435650c55c79\transformed\jetified-hatool-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c40f78326a0e3adcb9e86539d25b57bf\transformed\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c40f78326a0e3adcb9e86539d25b57bf\transformed\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\c3e0d243d0947cb3eae62d57dc5d786e\transformed\jetified-security-encrypt-1.1.5.306\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\c3e0d243d0947cb3eae62d57dc5d786e\transformed\jetified-security-encrypt-1.1.5.306\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:9:9-58
 	android:targetSdkVersion
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
@@ -234,3 +398,669 @@ INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 		ADDED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
+activity#com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity
+ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:10:9-16:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:13:13-46
+	android:exported
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:12:13-53
+	android:theme
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:15:13-72
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:11:13-90
+activity#com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity
+ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:17:9-22:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:19:13-46
+	android:exported
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:18:13-96
+meta-data#com.huawei.hms.client.service.name:hwid
+ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:25:9-27:46
+	android:value
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:26:13-67
+meta-data#com.huawei.hms.min_api_level:hwid:hwid
+ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:28:9-30:33
+	android:value
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:30:13-30
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:29:13-66
+meta-data#com.huawei.hms.min_api_level:hwid:account
+ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:34:9-36:34
+	android:value
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:36:13-31
+	android:name
+		ADDED from [com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:35:13-69
+uses-permission#android.permission.INTERNET
+ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:13:5-67
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:13:5-67
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\2dc12124670b1d0f641b1830e9e5ff16\transformed\jetified-stats-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:12:5-67
+MERGED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:10:22-64
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:15:9-17:46
+	android:value
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:16:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:20:9-22:33
+	android:value
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:22:13-30
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:21:13-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:5-83
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:16:5-83
+MERGED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:16:5-83
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:15:5-83
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:22-80
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:5-106
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:18:5-106
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:18:5-106
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:22-103
+queries
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:18:5-27:15
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:14:5-21:15
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:14:5-21:15
+intent#action:name:com.apptouch.intent.action.update_hms
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+action#com.apptouch.intent.action.update_hms
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:13-76
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:21-73
+intent#action:name:com.huawei.appmarket.intent.action.AppDetail
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:22:9-24:18
+action#com.huawei.appmarket.intent.action.AppDetail
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:23:13-83
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:23:21-80
+package#com.hisilicon.android.hiRMService
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:18-66
+meta-data#availableLoaded
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:32:9-34:35
+	android:value
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:34:13-32
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:33:13-43
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:36:9-41:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:38:13-71
+	android:exported
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:37:13-73
+intent#action:name:com.huawei.hms.core.aidlservice
+ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:15:9-17:18
+action#com.huawei.hms.core.aidlservice
+ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:16:13-70
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:16:21-67
+intent#action:name:com.huawei.hms.core
+ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:18:9-20:18
+action#com.huawei.hms.core
+ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:19:13-58
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:19:21-55
+provider#com.huawei.hms.device.provider.CheckHmsProvider
+ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:24:9-28:51
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:28:13-48
+	android:authorities
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:26:13-85
+	android:exported
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:25:13-75
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:11:9-14:40
+	android:authorities
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:13:13-73
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:12:13-90
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:17:13-70
+meta-data#com.huawei.hms.client.service.name:ads-lite
+ADDED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:13:9-15:52
+	android:value
+		ADDED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:15:13-49
+	android:name
+		ADDED from [com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:14:13-71
+uses-permission#com.huawei.permission.sec.MDM.v2
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:17:22-69
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.REAL_GET_TASKS
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:19:5-73
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:19:22-70
+uses-permission#com.huawei.permission.sec.ACCESS_UDID
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:20:22-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:21:22-65
+uses-permission#com.huawei.permission.app.DOWNLOAD
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:22:22-71
+uses-permission#android.permission.CAMERA
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:23:5-65
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:11:5-65
+MERGED from [com.huawei.hms:xrkitsdk:1.4.0.0] C:\Users\Dell PC\.gradle\caches\transforms-3\5b493489accc7749bc9d278846e51c80\transformed\jetified-xrkitsdk-1.4.0.0\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:23:22-62
+uses-permission#android.permission.READ_CALENDAR
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:24:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:26:22-74
+uses-permission#com.android.permission.GET_INSTALLED_APPS
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:27:22-78
+meta-data#hw.theme_type
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:30:9-32:35
+	android:value
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:32:13-32
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:31:13-41
+meta-data#permission.reason.android.permission-group.CALENDAR
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:33:9-35:72
+	android:resource
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:35:13-69
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:34:13-79
+uses-library#org.apache.http.legacy
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:37:9-39:40
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Dell PC\.gradle\caches\transforms-3\369994792bfb700b14236bbabc38848e\transformed\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:38:13-50
+provider#com.huawei.openalliance.ad.ppskit.provider.PPSInstallFileProvider
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:41:9-45:50
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:45:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:43:13-69
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:42:13-93
+provider#com.huawei.openalliance.ad.ppskit.provider.InnerApiProvider
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:46:9-49:40
+	android:authorities
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:48:13-72
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:47:13-87
+service#com.huawei.android.hms.ppskit.PpsCoreService
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:52:13-72
+intent-filter#action:name:com.huawei.android.hms.ppskit.PPS_API_SERVICE
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:54:13-56:29
+action#com.huawei.android.hms.ppskit.PPS_API_SERVICE
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:55:17-88
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:55:25-85
+activity#com.huawei.openalliance.ad.ppskit.activity.InstallActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:59:9-68:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:62:13-46
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:63:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:61:13-134
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:64:13-66
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:60:13-86
+meta-data#hwc-theme
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+	android:value
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+activity#com.huawei.openalliance.ad.ppskit.activity.HMSSDKInstallActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:69:9-78:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:72:13-46
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:73:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:71:13-134
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:74:13-66
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:70:13-92
+activity#com.huawei.openalliance.ad.ppskit.activity.PPSActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:79:9-94:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:83:13-30
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:82:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:81:13-106
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:80:13-82
+intent-filter#action:name:com.huawei.hms.pps.action.PPS_DETAIL+category:name:android.intent.category.DEFAULT
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:85:13-89:29
+action#com.huawei.hms.pps.action.PPS_DETAIL
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:86:17-79
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:86:25-76
+category#android.intent.category.DEFAULT
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+activity#com.huawei.openalliance.ad.ppskit.activity.InnerPPSActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:95:9-104:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:100:13-49
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:99:13-30
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:98:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:97:13-134
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:96:13-87
+activity#com.huawei.openalliance.ad.ppskit.activity.InnerPPSArActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:105:9-114:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:110:13-49
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:109:13-30
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:108:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:107:13-134
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:106:13-89
+activity#com.huawei.openalliance.ad.ppskit.activity.PPSRewardActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:115:9-133:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:119:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:118:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:117:13-141
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:120:13-66
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:116:13-88
+intent-filter#action:name:com.huawei.hms.pps.action.PPS_REWARD+category:name:android.intent.category.DEFAULT
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:121:13-125:29
+action#com.huawei.hms.pps.action.PPS_REWARD
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:122:17-79
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:122:25-76
+meta-data#android.notch_support
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:130:13-132:41
+	android:value
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:132:17-38
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:131:17-53
+activity#com.huawei.openalliance.ad.ppskit.activity.InnerPPSRewardActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:134:9-145:20
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:137:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:136:13-134
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:138:13-66
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:135:13-93
+activity#com.huawei.openalliance.ad.ppskit.activity.InnerPPSInterstitialAdActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:146:9-158:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:150:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:149:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:148:13-122
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:151:13-83
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:147:13-101
+activity#com.huawei.openalliance.ad.ppskit.activity.InterstitialAdActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:159:9-177:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:163:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:162:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:161:13-122
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:164:13-83
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:160:13-93
+intent-filter#action:name:com.huawei.hms.pps.action.PPS_INTERSTITIAL+category:name:android.intent.category.DEFAULT
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:165:13-169:29
+action#com.huawei.hms.pps.action.PPS_INTERSTITIAL
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:166:17-85
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:166:25-82
+activity#com.huawei.openalliance.ad.ppskit.activity.AgProtocolActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:178:9-186:20
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:181:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:180:13-59
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:182:13-72
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:179:13-89
+activity#com.huawei.openalliance.ad.ppskit.activity.PPSArActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:187:9-202:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:191:13-49
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:190:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:189:13-74
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:192:13-71
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:188:13-84
+intent-filter#action:name:com.huawei.hms.pps.action.PPS_AR+category:name:android.intent.category.DEFAULT
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:193:13-197:29
+action#com.huawei.hms.pps.action.PPS_AR
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:194:17-75
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:194:25-72
+activity#com.huawei.opendevice.open.OAIDSettingActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:203:9-223:20
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:207:13-29
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:206:13-36
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:205:13-106
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:208:13-63
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:204:13-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${applicationId}+data:scheme:hwppsprivacy
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:209:13-218:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:hou.duogwas.onthigplxa1+data:scheme:hwppsprivacy
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:209:13-218:29
+action#android.intent.action.VIEW
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:17-69
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:17-78
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:27-75
+data
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:215:17-217:53
+	android:host
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:216:21-52
+	android:scheme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:217:21-50
+activity#com.huawei.opendevice.open.PrivacyActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:224:9-244:20
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:228:13-29
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:227:13-36
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:226:13-106
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:229:13-63
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:225:13-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${applicationId}+data:scheme:hwppsprivacydetail
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:230:13-239:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:hou.duogwas.onthigplxa1+data:scheme:hwppsprivacydetail
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:230:13-239:29
+activity#com.huawei.opendevice.open.WhyThisAdStatementActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:245:9-265:20
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:249:13-29
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:248:13-36
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:247:13-106
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:250:13-63
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:246:13-81
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${applicationId}+data:scheme:hwppsprivacyadinfo
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:251:13-260:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:hou.duogwas.onthigplxa1+data:scheme:hwppsprivacyadinfo
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:251:13-260:29
+activity#com.huawei.opendevice.open.SimplePrivacyActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:266:9-275:20
+	android:label
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:270:13-29
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:269:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:268:13-106
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:271:13-63
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:267:13-76
+activity#com.huawei.openalliance.ad.ppskit.activity.PPSFullScreenNotifyActivity
+ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:276:9-285:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:279:13-46
+	android:exported
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:280:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:278:13-74
+	android:theme
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:281:13-72
+	android:name
+		ADDED from [com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:277:13-98
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:24:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:23:13-59
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:22:13-84
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:33:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:31:13-84
+provider#com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:40:9-44:50
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:44:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:42:13-74
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:41:13-83
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:10:9-21:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:16:13-47
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:13:13-46
+	android:hardwareAccelerated
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:15:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:12:13-131
+	android:theme
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:11:13-66
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:22:9-26:20
+	android:exported
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:25:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:24:13-106
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:23:13-73
+meta-data#com.huawei.hms.client.service.name:ads-banner
+ADDED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:13:9-15:54
+	android:value
+		ADDED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:15:13-51
+	android:name
+		ADDED from [com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:14:13-73
+meta-data#com.huawei.hms.client.service.name:ads-template
+ADDED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:13:9-15:56
+	android:value
+		ADDED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:14:13-75
+meta-data#com.huawei.hms.client.service.name:ads-native
+ADDED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:13:9-15:54
+	android:value
+		ADDED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:15:13-51
+	android:name
+		ADDED from [com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:14:13-73
+meta-data#com.huawei.hms.client.service.name:ads-interstitial
+ADDED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:13:9-15:60
+	android:value
+		ADDED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:15:13-57
+	android:name
+		ADDED from [com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:14:13-79
+meta-data#com.huawei.hms.client.service.name:ads-reward
+ADDED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:13:9-15:54
+	android:value
+		ADDED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:15:13-51
+	android:name
+		ADDED from [com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:14:13-73
+meta-data#com.huawei.hms.client.service.name:ads-lang
+ADDED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:13:9-15:52
+	android:value
+		ADDED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:15:13-49
+	android:name
+		ADDED from [com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:14:13-71
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:12:22-72
+meta-data#com.huawei.hms.client.service.name:ads-splash
+ADDED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:15:9-17:54
+	android:value
+		ADDED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:17:13-51
+	android:name
+		ADDED from [com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:16:13-73
+meta-data#com.huawei.hms.client.service.name:ads-instream
+ADDED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:13:9-15:56
+	android:value
+		ADDED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:14:13-75
+meta-data#com.huawei.hms.client.service.name:ads-jsbridge
+ADDED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:13:9-15:55
+	android:value
+		ADDED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:15:13-52
+	android:name
+		ADDED from [com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:14:13-75
+meta-data#com.huawei.hms.client.service.name:ads-base
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:17:9-19:52
+	android:value
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:18:13-71
+activity#com.huawei.openalliance.ad.activity.PPSLauncherActivity
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:21:9-39:20
+	android:exported
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:23:13-36
+	android:theme
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:24:13-72
+	android:name
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:22:13-83
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${applicationId}+data:scheme:hwpps
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:25:13-34:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:hou.duogwas.onthigplxa1+data:scheme:hwpps
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:25:13-34:29
+activity#com.huawei.openalliance.ad.activity.PPSBridgeActivity
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:40:9-47:20
+	android:exported
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:41:13-81
+activity#com.huawei.openalliance.ad.activity.PPSNotificationActivity
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:48:9-55:20
+	android:exported
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:50:13-37
+	android:theme
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:51:13-72
+	android:name
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:49:13-87
+activity#com.huawei.openalliance.ad.activity.AgProtocolActivity
+ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:56:9-64:20
+	android:exported
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:59:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:58:13-59
+	android:theme
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:60:13-72
+	android:name
+		ADDED from [com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:57:13-82

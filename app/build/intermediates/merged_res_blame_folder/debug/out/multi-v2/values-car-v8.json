@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-car-v8\\values-car-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dell PC\\.gradle\\caches\\transforms-3\\2cb2953b57dd826ccd1820e57ba5c67e\\transformed\\jetified-update-3.0.4.300\\res\\values-car-v8\\values-car-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,162",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "103,157,210"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -48,12 +48,12 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\banner.jpg"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\anim_bottom_anim.xml.flat",
@@ -108,20 +108,16 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_hotro.png"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_bungee_inline.xml.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\bungee_inline.xml"
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_inforbackground.png.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\inforbackground.png"
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_bungee_inline.xml.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\font\\bungee_inline.xml"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_thongtin.png.flat",
@@ -164,12 +160,12 @@
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_nav_avt.png"
     },
     {
-        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_meoonthi.png.flat",
         "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\drawable\\ic_meoonthi.png"
+    },
+    {
+        "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "D:\\ProjectAndroid\\OnThiGPLXA1\\app\\build\\intermediates\\merged_res\\debug\\font_bangers_medium.ttf.flat",

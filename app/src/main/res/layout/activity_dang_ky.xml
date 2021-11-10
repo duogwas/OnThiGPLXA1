@@ -51,7 +51,7 @@
                 android:id="@+id/sdt_reg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number" />
+                android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -85,7 +85,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/reg_btn"
+        android:id="@+id/btn_dangky"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#64B5F6"
@@ -94,7 +94,7 @@
         android:textSize="18sp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/reg_login_btn"
+        android:id="@+id/btn_dangnhapngay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"

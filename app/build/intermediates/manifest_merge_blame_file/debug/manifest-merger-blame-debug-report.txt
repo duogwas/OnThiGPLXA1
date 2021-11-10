@@ -10,85 +10,986 @@
 9        android:targetSdkVersion="31" />
 9-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:5-43:19
-12        android:allowBackup="true"
-12-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/Theme.ÔnThiGPLXA1" >
-21-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:11:9-49
-22        <activity
-22-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:12:9-14:40
-23            android:name="hou.duogwas.onthigplxa1.Activity.HoTro"
-23-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:13:13-43
-24            android:exported="false" />
-24-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:14:13-37
-25        <activity
-25-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:15:9-17:40
-26            android:name="hou.duogwas.onthigplxa1.Activity.ThongTinUngDung"
-26-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:16:13-53
-27            android:exported="false" />
-27-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:17:13-37
-28        <activity
-28-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:18:9-20:40
-29            android:name="hou.duogwas.onthigplxa1.Activity.DangKy"
-29-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:19:13-44
-30            android:exported="false" />
-30-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:20:13-37
-31        <activity
-31-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:21:9-23:40
-32            android:name="hou.duogwas.onthigplxa1.Activity.DangNhap"
-32-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:22:13-46
-33            android:exported="false" />
-33-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:23:13-37
-34        <activity
-34-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:24:9-26:40
-35            android:name="hou.duogwas.onthigplxa1.Activity.HocBienBao"
-35-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:25:13-48
-36            android:exported="false" />
-36-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:26:13-37
-37        <activity
-37-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:27:9-29:48
-38            android:name="hou.duogwas.onthigplxa1.Activity.WelcomeActivity"
-38-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:13-53
-39            android:exported="true" />
-39-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:29:13-36
-40        <activity
-40-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:30:9-38:20
-41            android:name="hou.duogwas.onthigplxa1.Activity.MainActivity"
-41-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:31:13-50
-42            android:exported="true" >
-42-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:32:13-36
-43            <intent-filter>
-43-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:33:13-37:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:17-69
-44-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:17-77
-46-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:27-74
-47            </intent-filter>
-48        </activity>
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:5-76
+12-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:6:22-73
+13
+14    <!-- HMS-SDK引导升级HMS功能，访问OTA服务器需要网络权限 -->
+15    <uses-permission android:name="android.permission.INTERNET" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+15-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:10:5-67
+15-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+16-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:5-83
+16-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:22-80
+17    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+17-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:5-106
+17-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:22-103
+18
+19    <queries>
+19-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:18:5-27:15
+20        <intent>
+20-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+21            <action android:name="com.apptouch.intent.action.update_hms" />
+21-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:13-76
+21-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:21-73
+22        </intent>
+23        <intent>
+23-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:22:9-24:18
+24            <action android:name="com.huawei.appmarket.intent.action.AppDetail" />
+24-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:23:13-83
+24-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:23:21-80
+25        </intent>
+26
+27        <package android:name="com.hisilicon.android.hiRMService" />
+27-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:9-69
+27-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:18-66
+28
+29        <intent>
+29-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:15:9-17:18
+30            <action android:name="com.huawei.hms.core.aidlservice" />
+30-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:16:13-70
+30-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:16:21-67
+31        </intent>
+32        <intent>
+32-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:18:9-20:18
+33            <action android:name="com.huawei.hms.core" />
+33-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:19:13-58
+33-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:19:21-55
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="com.huawei.permission.sec.MDM.v2" />
+37-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:17:5-72
+37-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:17:22-69
+38    <uses-permission android:name="android.permission.GET_TASKS" />
+38-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:18:5-68
+38-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:18:22-65
+39    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+39-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:19:5-73
+39-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:19:22-70
+40    <uses-permission android:name="com.huawei.permission.sec.ACCESS_UDID" />
+40-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:20:5-77
+40-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:20:22-74
+41    <uses-permission android:name="android.permission.BLUETOOTH" />
+41-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:21:5-68
+41-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:21:22-65
+42    <uses-permission android:name="com.huawei.permission.app.DOWNLOAD" />
+42-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:22:5-74
+42-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:22:22-71
+43    <uses-permission android:name="android.permission.CAMERA" />
+43-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:23:5-65
+43-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:23:22-62
+44    <uses-permission android:name="android.permission.READ_CALENDAR" />
+44-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:24:5-72
+44-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:24:22-69
+45    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+45-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:25:5-73
+45-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:25:22-70
+46    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+46-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:26:5-77
+46-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:26:22-74
+47    <uses-permission android:name="com.android.permission.GET_INSTALLED_APPS" />
+47-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:27:5-81
+47-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:27:22-78
+48    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+48-->[com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:12:5-75
+48-->[com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:12:22-72
 49
-50        <meta-data
-50-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:40:9-42:57
-51            android:name="preloaded_fonts"
-51-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:41:13-43
-52            android:resource="@array/preloaded_fonts" />
-52-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:42:13-54
-53    </application>
-54
-55</manifest>
+50    <application
+50-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:8:5-46:19
+51        android:allowBackup="true"
+51-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:9:9-35
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.5.0] C:\Users\Dell PC\.gradle\caches\transforms-3\e7ad2ddef6e5c92cb18d4fe87be93c25\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+53        android:debuggable="true"
+54        android:extractNativeLibs="false"
+55        android:icon="@mipmap/ic_launcher"
+55-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:10:9-43
+56        android:label="@string/app_name"
+56-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:11:9-41
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:12:9-54
+58        android:supportsRtl="true"
+58-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:13:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.ÔnThiGPLXA1" >
+60-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:14:9-49
+61        <activity
+61-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:15:9-17:40
+62            android:name="hou.duogwas.onthigplxa1.Activity.HoTro"
+62-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:16:13-43
+63            android:exported="false" />
+63-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:17:13-37
+64        <activity
+64-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:18:9-20:40
+65            android:name="hou.duogwas.onthigplxa1.Activity.ThongTinUngDung"
+65-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:19:13-53
+66            android:exported="false" />
+66-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:20:13-37
+67        <activity
+67-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:21:9-23:40
+68            android:name="hou.duogwas.onthigplxa1.Activity.DangKy"
+68-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:22:13-44
+69            android:exported="false" />
+69-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:23:13-37
+70        <activity
+70-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:24:9-26:40
+71            android:name="hou.duogwas.onthigplxa1.Activity.DangNhap"
+71-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:25:13-46
+72            android:exported="false" />
+72-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:26:13-37
+73        <activity
+73-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:27:9-29:40
+74            android:name="hou.duogwas.onthigplxa1.Activity.HocBienBao"
+74-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:28:13-48
+75            android:exported="false" />
+75-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:29:13-37
+76        <activity
+76-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:30:9-38:20
+77            android:name="hou.duogwas.onthigplxa1.Activity.WelcomeActivity"
+77-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:31:13-53
+78            android:exported="true" >
+78-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:32:13-36
+79            <intent-filter>
+79-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:33:13-37:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:17-69
+80-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:34:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:17-77
+82-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:36:27-74
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:39:9-41:39
+86            android:name="hou.duogwas.onthigplxa1.Activity.MainActivity"
+86-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:40:13-50
+87            android:exported="false" />
+87-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:41:13-37
+88
+89        <meta-data
+89-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:43:9-45:57
+90            android:name="preloaded_fonts"
+90-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:44:13-43
+91            android:resource="@array/preloaded_fonts" />
+91-->D:\ProjectAndroid\OnThiGPLXA1\app\src\main\AndroidManifest.xml:45:13-54
+92
+93        <activity
+93-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:10:9-16:20
+94            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+94-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:11:13-90
+95            android:configChanges="fontScale|uiMode"
+95-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:12:13-53
+96            android:excludeFromRecents="true"
+96-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:13:13-46
+97            android:exported="false"
+97-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:14:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:15:13-72
+99        </activity>
+100        <activity
+100-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:17:9-22:20
+101            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+101-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:18:13-96
+102            android:excludeFromRecents="true"
+102-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:19:13-46
+103            android:exported="false"
+103-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:20:13-37
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+104-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:21:13-72
+105        </activity> <!-- 切记同步修改 HuaweiIdAuthInternalConstant.HMS_SDK_VERSION -->
+106        <meta-data
+106-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:25:9-27:46
+107            android:name="com.huawei.hms.client.service.name:hwid"
+107-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:26:13-67
+108            android:value="hwid:6.1.0.300" />
+108-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:27:13-43
+109        <meta-data
+109-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:28:9-30:33
+110            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+110-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:29:13-66
+111            android:value="1" /> <!-- 5.3.0 独立授权依赖的api_level为11 -->
+111-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:30:13-30
+112        <!-- 5.3.0 setCarrierId依赖的api_level为13 -->
+113        <meta-data
+113-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:34:9-36:34
+114            android:name="com.huawei.hms.min_api_level:hwid:account"
+114-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:35:13-69
+115            android:value="13" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+115-->[com.huawei.hms:hwid:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\829516c990163d741396c83a114e8463\transformed\jetified-hwid-6.1.0.302\AndroidManifest.xml:36:13-31
+116        <meta-data
+116-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:15:9-17:46
+117            android:name="com.huawei.hms.client.service.name:base"
+117-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:16:13-67
+118            android:value="base:6.1.0.302" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+118-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:17:13-43
+119        <meta-data
+119-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:20:9-22:33
+120            android:name="com.huawei.hms.min_api_level:base:hmscore"
+120-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:21:13-69
+121            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+121-->[com.huawei.hms:base:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\d1a0e77b273afb14da75b864c46398cb\transformed\jetified-base-6.1.0.302\AndroidManifest.xml:22:13-30
+122        <meta-data
+122-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:32:9-34:35
+123            android:name="availableLoaded"
+123-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:33:13-43
+124            android:value="yes" />
+124-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:34:13-32
+125
+126        <provider
+126-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:36:9-41:20
+127            android:name="com.huawei.hms.update.provider.UpdateProvider"
+127-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:37:13-73
+128            android:authorities="hou.duogwas.onthigplxa1.hms.update.provider"
+128-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:38:13-71
+129            android:exported="false"
+129-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:39:13-37
+130            android:grantUriPermissions="true" >
+130-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\6cd2b5bcbe576f92a7f897b36645e78d\transformed\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:40:13-47
+131        </provider>
+132        <provider
+132-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:24:9-28:51
+133            android:name="com.huawei.hms.device.provider.CheckHmsProvider"
+133-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:25:13-75
+134            android:authorities="hou.duogwas.onthigplxa1.hms.device.validate.spoofprovider"
+134-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:26:13-85
+135            android:exported="false"
+135-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:27:13-37
+136            android:grantUriPermissions="false" />
+136-->[com.huawei.hms:device:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\4311a4ffee3f86cc8bb55d24255beee8\transformed\jetified-device-6.1.0.302\AndroidManifest.xml:28:13-48
+137        <provider
+137-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:11:9-14:40
+138            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+138-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:12:13-90
+139            android:authorities="hou.duogwas.onthigplxa1.AGCInitializeProvider"
+139-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:13:13-73
+140            android:exported="false" />
+140-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:14:13-37
+141
+142        <service
+142-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:16:9-18:40
+143            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+143-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:17:13-70
+144            android:exported="false" />
+144-->[com.huawei.agconnect:agconnect-core:1.6.0.300] C:\Users\Dell PC\.gradle\caches\transforms-3\a9492c3828de113f27a8584d275c3746\transformed\jetified-agconnect-core-1.6.0.300\AndroidManifest.xml:18:13-37
+145
+146        <meta-data
+146-->[com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:13:9-15:52
+147            android:name="com.huawei.hms.client.service.name:ads-lite"
+147-->[com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:14:13-71
+148            android:value="ads-lite:13.4.48.301" />
+148-->[com.huawei.hms:ads-lite:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\5b8d3b392438b29f2883d620d4ff7855\transformed\jetified-ads-lite-13.4.48.301\AndroidManifest.xml:15:13-49
+149        <meta-data
+149-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:30:9-32:35
+150            android:name="hw.theme_type"
+150-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:31:13-41
+151            android:value="273" />
+151-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:32:13-32
+152        <meta-data
+152-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:33:9-35:72
+153            android:name="permission.reason.android.permission-group.CALENDAR"
+153-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:34:13-79
+154            android:resource="@string/hiad_calender_description_new" />
+154-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:35:13-69
+155
+156        <uses-library
+156-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:37:9-39:40
+157            android:name="org.apache.http.legacy"
+157-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:38:13-50
+158            android:required="false" />
+158-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:39:13-37
+159
+160        <provider
+160-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:41:9-45:50
+161            android:name="com.huawei.openalliance.ad.ppskit.provider.PPSInstallFileProvider"
+161-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:42:13-93
+162            android:authorities="hou.duogwas.onthigplxa1.hiad.fileprovider"
+162-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:43:13-69
+163            android:exported="false"
+163-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:44:13-37
+164            android:grantUriPermissions="true" />
+164-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:45:13-47
+165        <provider
+165-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:46:9-49:40
+166            android:name="com.huawei.openalliance.ad.ppskit.provider.InnerApiProvider"
+166-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:47:13-87
+167            android:authorities="hou.duogwas.onthigplxa1.pps.innerapiprovider"
+167-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:48:13-72
+168            android:exported="false" />
+168-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:49:13-37
+169
+170        <service
+170-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:51:9-57:19
+171            android:name="com.huawei.android.hms.ppskit.PpsCoreService"
+171-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:52:13-72
+172            android:exported="false" >
+172-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:53:13-37
+173            <intent-filter>
+173-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:54:13-56:29
+174                <action android:name="com.huawei.android.hms.ppskit.PPS_API_SERVICE" />
+174-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:55:17-88
+174-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:55:25-85
+175            </intent-filter>
+176        </service>
+177
+178        <activity
+178-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:59:9-68:20
+179            android:name="com.huawei.openalliance.ad.ppskit.activity.InstallActivity"
+179-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:60:13-86
+180            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+180-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:61:13-134
+181            android:excludeFromRecents="true"
+181-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:62:13-46
+182            android:exported="false"
+182-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:63:13-37
+183            android:theme="@android:style/Theme.Light.NoTitleBar" >
+183-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:64:13-66
+184            <meta-data
+184-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+185                android:name="hwc-theme"
+185-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+186                android:value="androidhwext:style/Theme.Emui.Light.NoTitleBar" />
+186-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+187        </activity>
+188        <activity
+188-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:69:9-78:20
+189            android:name="com.huawei.openalliance.ad.ppskit.activity.HMSSDKInstallActivity"
+189-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:70:13-92
+190            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+190-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:71:13-134
+191            android:excludeFromRecents="true"
+191-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:72:13-46
+192            android:exported="false"
+192-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:73:13-37
+193            android:theme="@android:style/Theme.Light.NoTitleBar" >
+193-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:74:13-66
+194            <meta-data
+194-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+195                android:name="hwc-theme"
+195-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+196                android:value="androidhwext:style/Theme.Emui.Light.NoTitleBar" />
+196-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+197        </activity>
+198        <activity
+198-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:79:9-94:20
+199            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSActivity"
+199-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:80:13-82
+200            android:configChanges="screenLayout|screenSize|smallestScreenSize|orientation|keyboardHidden"
+200-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:81:13-106
+201            android:exported="false"
+201-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:82:13-37
+202            android:label=" "
+202-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:83:13-30
+203            android:screenOrientation="portrait" >
+203-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:84:13-49
+204            <intent-filter>
+204-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:85:13-89:29
+205                <action android:name="com.huawei.hms.pps.action.PPS_DETAIL" />
+205-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:86:17-79
+205-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:86:25-76
+206
+207                <category android:name="android.intent.category.DEFAULT" />
+207-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+207-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+208            </intent-filter>
+209
+210            <meta-data
+210-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+211                android:name="hwc-theme"
+211-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+212                android:value="androidhwext:style/Theme.Emui" />
+212-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+213        </activity>
+214        <activity
+214-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:95:9-104:20
+215            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSActivity"
+215-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:96:13-87
+216            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+216-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:97:13-134
+217            android:exported="false"
+217-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:98:13-37
+218            android:label=" "
+218-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:99:13-30
+219            android:screenOrientation="portrait" >
+219-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:100:13-49
+220            <meta-data
+220-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+221                android:name="hwc-theme"
+221-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+222                android:value="androidhwext:style/Theme.Emui" />
+222-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+223        </activity>
+224        <activity
+224-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:105:9-114:20
+225            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSArActivity"
+225-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:106:13-89
+226            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+226-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:107:13-134
+227            android:exported="false"
+227-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:108:13-37
+228            android:label=" "
+228-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:109:13-30
+229            android:screenOrientation="portrait" >
+229-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:110:13-49
+230            <meta-data
+230-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+231                android:name="hwc-theme"
+231-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+232                android:value="androidhwext:style/Theme.Emui" />
+232-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+233        </activity>
+234        <activity
+234-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:115:9-133:20
+235            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSRewardActivity"
+235-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:116:13-88
+236            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation|uiMode"
+236-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:117:13-141
+237            android:exported="false"
+237-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:118:13-37
+238            android:screenOrientation="behind"
+238-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:119:13-47
+239            android:theme="@style/HiAdThemeNoActionBarFullScreen" >
+239-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:120:13-66
+240            <intent-filter>
+240-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:121:13-125:29
+241                <action android:name="com.huawei.hms.pps.action.PPS_REWARD" />
+241-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:122:17-79
+241-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:122:25-76
+242
+243                <category android:name="android.intent.category.DEFAULT" />
+243-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+243-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+244            </intent-filter>
+245
+246            <meta-data
+246-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+247                android:name="hwc-theme"
+247-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+248                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+248-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+249            <meta-data
+249-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:130:13-132:41
+250                android:name="android.notch_support"
+250-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:131:17-53
+251                android:value="false" />
+251-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:132:17-38
+252        </activity>
+253        <activity
+253-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:134:9-145:20
+254            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSRewardActivity"
+254-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:135:13-93
+255            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+255-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:136:13-134
+256            android:exported="false"
+256-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:137:13-37
+257            android:theme="@style/HiAdThemeNoActionBarFullScreen" >
+257-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:138:13-66
+258            <meta-data
+258-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+259                android:name="hwc-theme"
+259-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+260                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+260-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+261            <meta-data
+261-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:130:13-132:41
+262                android:name="android.notch_support"
+262-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:131:17-53
+263                android:value="false" />
+263-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:132:17-38
+264        </activity>
+265        <activity
+265-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:146:9-158:20
+266            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSInterstitialAdActivity"
+266-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:147:13-101
+267            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize"
+267-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:148:13-122
+268            android:exported="false"
+268-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:149:13-37
+269            android:screenOrientation="sensor"
+269-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:150:13-47
+270            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+270-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:151:13-83
+271            <meta-data
+271-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+272                android:name="hwc-theme"
+272-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+273                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+273-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+274            <meta-data
+274-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:130:13-132:41
+275                android:name="android.notch_support"
+275-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:131:17-53
+276                android:value="false" />
+276-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:132:17-38
+277        </activity>
+278        <activity
+278-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:159:9-177:20
+279            android:name="com.huawei.openalliance.ad.ppskit.activity.InterstitialAdActivity"
+279-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:160:13-93
+280            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize"
+280-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:161:13-122
+281            android:exported="false"
+281-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:162:13-37
+282            android:screenOrientation="sensor"
+282-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:163:13-47
+283            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+283-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:164:13-83
+284            <intent-filter>
+284-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:165:13-169:29
+285                <action android:name="com.huawei.hms.pps.action.PPS_INTERSTITIAL" />
+285-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:166:17-85
+285-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:166:25-82
+286
+287                <category android:name="android.intent.category.DEFAULT" />
+287-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+287-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+288            </intent-filter>
+289
+290            <meta-data
+290-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+291                android:name="hwc-theme"
+291-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+292                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+292-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+293            <meta-data
+293-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:130:13-132:41
+294                android:name="android.notch_support"
+294-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:131:17-53
+295                android:value="false" />
+295-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:132:17-38
+296        </activity>
+297        <activity
+297-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:178:9-186:20
+298            android:name="com.huawei.openalliance.ad.ppskit.activity.AgProtocolActivity"
+298-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:179:13-89
+299            android:configChanges="orientation|screenSize"
+299-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:180:13-59
+300            android:exported="false"
+300-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:181:13-37
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+301-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:182:13-72
+302            <meta-data
+302-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+303                android:name="hwc-theme"
+303-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+304                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+304-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+305        </activity>
+306        <activity
+306-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:187:9-202:20
+307            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSArActivity"
+307-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:188:13-84
+308            android:configChanges="orientation|keyboardHidden|screenSize"
+308-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:189:13-74
+309            android:exported="false"
+309-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:190:13-37
+310            android:screenOrientation="portrait"
+310-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:191:13-49
+311            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+311-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:192:13-71
+312            <intent-filter>
+312-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:193:13-197:29
+313                <action android:name="com.huawei.hms.pps.action.PPS_AR" />
+313-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:194:17-75
+313-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:194:25-72
+314
+315                <category android:name="android.intent.category.DEFAULT" />
+315-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+315-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+316            </intent-filter>
+317
+318            <meta-data
+318-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+319                android:name="hwc-theme"
+319-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+320                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+320-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+321        </activity>
+322        <activity
+322-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:203:9-223:20
+323            android:name="com.huawei.opendevice.open.OAIDSettingActivity"
+323-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:204:13-74
+324            android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize"
+324-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:205:13-106
+325            android:exported="true"
+325-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:206:13-36
+326            android:label=""
+326-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:207:13-29
+327            android:theme="@android:style/Theme.DeviceDefault" >
+327-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:208:13-63
+328            <intent-filter>
+328-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:209:13-218:29
+329                <action android:name="android.intent.action.VIEW" />
+329-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:17-69
+329-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:25-66
+330
+331                <category android:name="android.intent.category.DEFAULT" />
+331-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+331-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+332                <category android:name="android.intent.category.BROWSABLE" />
+332-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:17-78
+332-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:27-75
+333
+334                <data
+334-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:215:17-217:53
+335                    android:host="hou.duogwas.onthigplxa1"
+335-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:216:21-52
+336                    android:scheme="hwppsprivacy" />
+336-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:217:21-50
+337            </intent-filter>
+338
+339            <meta-data
+339-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+340                android:name="hwc-theme"
+340-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+341                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+341-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+342        </activity>
+343        <activity
+343-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:224:9-244:20
+344            android:name="com.huawei.opendevice.open.PrivacyActivity"
+344-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:225:13-70
+345            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+345-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:226:13-106
+346            android:exported="true"
+346-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:227:13-36
+347            android:label=""
+347-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:228:13-29
+348            android:theme="@android:style/Theme.DeviceDefault" >
+348-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:229:13-63
+349            <intent-filter>
+349-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:230:13-239:29
+350                <action android:name="android.intent.action.VIEW" />
+350-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:17-69
+350-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:25-66
+351
+352                <category android:name="android.intent.category.DEFAULT" />
+352-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+352-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+353                <category android:name="android.intent.category.BROWSABLE" />
+353-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:17-78
+353-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:27-75
+354
+355                <data
+355-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:215:17-217:53
+356                    android:host="hou.duogwas.onthigplxa1"
+356-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:216:21-52
+357                    android:scheme="hwppsprivacydetail" />
+357-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:217:21-50
+358            </intent-filter>
+359
+360            <meta-data
+360-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+361                android:name="hwc-theme"
+361-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+362                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+362-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+363        </activity>
+364        <activity
+364-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:245:9-265:20
+365            android:name="com.huawei.opendevice.open.WhyThisAdStatementActivity"
+365-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:246:13-81
+366            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+366-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:247:13-106
+367            android:exported="true"
+367-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:248:13-36
+368            android:label=""
+368-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:249:13-29
+369            android:theme="@android:style/Theme.DeviceDefault" >
+369-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:250:13-63
+370            <intent-filter>
+370-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:251:13-260:29
+371                <action android:name="android.intent.action.VIEW" />
+371-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:17-69
+371-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:25-66
+372
+373                <category android:name="android.intent.category.DEFAULT" />
+373-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+373-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+374                <category android:name="android.intent.category.BROWSABLE" />
+374-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:17-78
+374-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:27-75
+375
+376                <data
+376-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:215:17-217:53
+377                    android:host="hou.duogwas.onthigplxa1"
+377-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:216:21-52
+378                    android:scheme="hwppsprivacyadinfo" />
+378-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:217:21-50
+379            </intent-filter>
+380
+381            <meta-data
+381-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+382                android:name="hwc-theme"
+382-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+383                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+383-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+384        </activity>
+385        <activity
+385-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:266:9-275:20
+386            android:name="com.huawei.opendevice.open.SimplePrivacyActivity"
+386-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:267:13-76
+387            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+387-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:268:13-106
+388            android:exported="false"
+388-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:269:13-37
+389            android:label=""
+389-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:270:13-29
+390            android:theme="@android:style/Theme.DeviceDefault" >
+390-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:271:13-63
+391            <meta-data
+391-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+392                android:name="hwc-theme"
+392-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+393                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+393-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+394        </activity>
+395        <activity
+395-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:276:9-285:20
+396            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSFullScreenNotifyActivity"
+396-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:277:13-98
+397            android:configChanges="orientation|keyboardHidden|screenSize"
+397-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:278:13-74
+398            android:excludeFromRecents="true"
+398-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:279:13-46
+399            android:exported="false"
+399-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:280:13-37
+400            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+400-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:281:13-72
+401            <meta-data
+401-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+402                android:name="hwc-theme"
+402-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+403                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+403-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+404        </activity>
+405        <activity
+405-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:21:9-29:20
+406            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+406-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:22:13-84
+407            android:configChanges="orientation|screenSize"
+407-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:23:13-59
+408            android:exported="false"
+408-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:24:13-37
+409            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+409-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:25:13-72
+410            <meta-data
+410-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+411                android:name="hwc-theme"
+411-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+412                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+412-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+413        </activity>
+414        <activity
+414-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:30:9-38:20
+415            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+415-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:31:13-84
+416            android:configChanges="orientation|keyboardHidden|screenSize"
+416-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:32:13-74
+417            android:exported="false"
+417-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:33:13-37
+418            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+418-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:34:13-72
+419            <meta-data
+419-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+420                android:name="hwc-theme"
+420-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+421                android:value="androidhwext:style/Theme.Emui.Translucent" />
+421-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+422        </activity>
+423
+424        <provider
+424-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:40:9-44:50
+425            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+425-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:41:13-83
+426            android:authorities="hou.duogwas.onthigplxa1.updateSdk.fileProvider"
+426-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:42:13-74
+427            android:exported="false"
+427-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:43:13-37
+428            android:grantUriPermissions="true" />
+428-->[com.huawei.hms:update:3.0.4.300] C:\Users\Dell PC\.gradle\caches\transforms-3\2cb2953b57dd826ccd1820e57ba5c67e\transformed\jetified-update-3.0.4.300\AndroidManifest.xml:44:13-47
+429
+430        <activity
+430-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:10:9-21:20
+431            android:name="com.huawei.hms.activity.BridgeActivity"
+431-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:11:13-66
+432            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+432-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:12:13-131
+433            android:excludeFromRecents="true"
+433-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:13:13-46
+434            android:exported="false"
+434-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:14:13-37
+435            android:hardwareAccelerated="true"
+435-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:15:13-47
+436            android:screenOrientation="behind"
+436-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:16:13-47
+437            android:theme="@style/Base_Translucent" >
+437-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:17:13-52
+438            <meta-data
+438-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+439                android:name="hwc-theme"
+439-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+440                android:value="androidhwext:style/Theme.Emui.Translucent" />
+440-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+441        </activity>
+442        <activity
+442-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:22:9-26:20
+443            android:name="com.huawei.hms.activity.EnableServiceActivity"
+443-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:23:13-73
+444            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+444-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:24:13-106
+445            android:exported="false" >
+445-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Dell PC\.gradle\caches\transforms-3\63af95e956a921d57ffe84a2ebed26a9\transformed\jetified-ui-6.1.0.302\AndroidManifest.xml:25:13-37
+446        </activity>
+447
+448        <meta-data
+448-->[com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:13:9-15:54
+449            android:name="com.huawei.hms.client.service.name:ads-banner"
+449-->[com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:14:13-73
+450            android:value="ads-banner:13.4.48.301" />
+450-->[com.huawei.hms:ads-banner:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\c4e1683c55fc38c5ffe7dac009d90d8d\transformed\jetified-ads-banner-13.4.48.301\AndroidManifest.xml:15:13-51
+451        <meta-data
+451-->[com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:13:9-15:56
+452            android:name="com.huawei.hms.client.service.name:ads-template"
+452-->[com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:14:13-75
+453            android:value="ads-template:13.4.48.301" />
+453-->[com.huawei.hms:ads-template:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\2b50bdc274b9d6c3b81bbb1a8076156b\transformed\jetified-ads-template-13.4.48.301\AndroidManifest.xml:15:13-53
+454        <meta-data
+454-->[com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:13:9-15:54
+455            android:name="com.huawei.hms.client.service.name:ads-native"
+455-->[com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:14:13-73
+456            android:value="ads-native:13.4.48.301" />
+456-->[com.huawei.hms:ads-native:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\98d41d8b5ba1f353249e15eb033e7111\transformed\jetified-ads-native-13.4.48.301\AndroidManifest.xml:15:13-51
+457        <meta-data
+457-->[com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:13:9-15:60
+458            android:name="com.huawei.hms.client.service.name:ads-interstitial"
+458-->[com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:14:13-79
+459            android:value="ads-interstitial:13.4.48.301" />
+459-->[com.huawei.hms:ads-interstitial:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\193df2c19e100b5f659339b65deab016\transformed\jetified-ads-interstitial-13.4.48.301\AndroidManifest.xml:15:13-57
+460        <meta-data
+460-->[com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:13:9-15:54
+461            android:name="com.huawei.hms.client.service.name:ads-reward"
+461-->[com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:14:13-73
+462            android:value="ads-reward:13.4.48.301" />
+462-->[com.huawei.hms:ads-reward:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\7f778d820b56b8d189dc3e0efd123a8e\transformed\jetified-ads-reward-13.4.48.301\AndroidManifest.xml:15:13-51
+463        <meta-data
+463-->[com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:13:9-15:52
+464            android:name="com.huawei.hms.client.service.name:ads-lang"
+464-->[com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:14:13-71
+465            android:value="ads-lang:13.4.48.301" />
+465-->[com.huawei.hms:ads-lang:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\03efc910363392d2f3d03d980096fca3\transformed\jetified-ads-lang-13.4.48.301\AndroidManifest.xml:15:13-49
+466        <meta-data
+466-->[com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:15:9-17:54
+467            android:name="com.huawei.hms.client.service.name:ads-splash"
+467-->[com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:16:13-73
+468            android:value="ads-splash:13.4.48.301" />
+468-->[com.huawei.hms:ads-splash:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\94cdd26f383d0d5f175c626174f8fbf7\transformed\jetified-ads-splash-13.4.48.301\AndroidManifest.xml:17:13-51
+469        <meta-data
+469-->[com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:13:9-15:56
+470            android:name="com.huawei.hms.client.service.name:ads-instream"
+470-->[com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:14:13-75
+471            android:value="ads-instream:13.4.48.301" />
+471-->[com.huawei.hms:ads-instream:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\3a38ac6a6fb89bf99ccf78315f87fad7\transformed\jetified-ads-instream-13.4.48.301\AndroidManifest.xml:15:13-53
+472        <meta-data
+472-->[com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:13:9-15:55
+473            android:name="com.huawei.hms.client.service.name:ads-jsbridge"
+473-->[com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:14:13-75
+474            android:value="ads-jsbridge:3.4.48.301" />
+474-->[com.huawei.hms:ads-jsbridge:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\395fe238f7e0fb730435f8b95ab9579a\transformed\jetified-ads-jsbridge-3.4.48.301\AndroidManifest.xml:15:13-52
+475        <meta-data
+475-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:17:9-19:52
+476            android:name="com.huawei.hms.client.service.name:ads-base"
+476-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:18:13-71
+477            android:value="ads-base:13.4.48.301" />
+477-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:19:13-49
+478
+479        <activity
+479-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:21:9-39:20
+480            android:name="com.huawei.openalliance.ad.activity.PPSLauncherActivity"
+480-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:22:13-83
+481            android:exported="true"
+481-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:23:13-36
+482            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+482-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:24:13-72
+483            <intent-filter>
+483-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:25:13-34:29
+484                <action android:name="android.intent.action.VIEW" />
+484-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:17-69
+484-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:210:25-66
+485
+486                <category android:name="android.intent.category.DEFAULT" />
+486-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:17-76
+486-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:88:27-73
+487                <category android:name="android.intent.category.BROWSABLE" />
+487-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:17-78
+487-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:213:27-75
+488
+489                <data
+489-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:215:17-217:53
+490                    android:host="hou.duogwas.onthigplxa1"
+490-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:216:21-52
+491                    android:scheme="hwpps" />
+491-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:217:21-50
+492            </intent-filter>
+493
+494            <meta-data
+494-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+495                android:name="hwc-theme"
+495-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+496                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+496-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+497        </activity>
+498        <activity
+498-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:40:9-47:20
+499            android:name="com.huawei.openalliance.ad.activity.PPSBridgeActivity"
+499-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:41:13-81
+500            android:exported="false"
+500-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:42:13-37
+501            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+501-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:43:13-72
+502            <meta-data
+502-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+503                android:name="hwc-theme"
+503-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+504                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+504-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+505        </activity>
+506        <activity
+506-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:48:9-55:20
+507            android:name="com.huawei.openalliance.ad.activity.PPSNotificationActivity"
+507-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:49:13-87
+508            android:exported="false"
+508-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:50:13-37
+509            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+509-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:51:13-72
+510            <meta-data
+510-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+511                android:name="hwc-theme"
+511-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+512                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+512-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+513        </activity>
+514        <activity
+514-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:56:9-64:20
+515            android:name="com.huawei.openalliance.ad.activity.AgProtocolActivity"
+515-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:57:13-82
+516            android:configChanges="orientation|screenSize"
+516-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:58:13-59
+517            android:exported="false"
+517-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:59:13-37
+518            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+518-->[com.huawei.hms:ads-base:13.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\4fb83561ad9fcab974d2cdb3b2ce9c03\transformed\jetified-ads-base-13.4.48.301\AndroidManifest.xml:60:13-72
+519            <meta-data
+519-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:65:13-67:82
+520                android:name="hwc-theme"
+520-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:66:17-41
+521                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+521-->[com.huawei.hms:ads-core:3.4.48.301] C:\Users\Dell PC\.gradle\caches\transforms-3\fa02711dfe9f29d95bd5a4f76d21a137\transformed\jetified-ads-core-3.4.48.301\AndroidManifest.xml:67:17-79
+522        </activity>
+523    </application>
+524
+525</manifest>

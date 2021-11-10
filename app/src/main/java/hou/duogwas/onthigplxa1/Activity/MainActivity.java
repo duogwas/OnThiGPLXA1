@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
 
         /********Hide or show menu items********/
         Menu menu = nav_view.getMenu();
-        menu.findItem(R.id.nav_logout).setVisible(false);
+        menu.findItem(R.id.nav_login).setVisible(false);
+        menu.findItem(R.id.nav_register).setVisible(false);
     }
 
     private void AnhXa() {
@@ -67,23 +68,40 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         switch (menuItem.getItemId()) {
             case R.id.nav_home:
                 break;
+
+            case R.id.nav_register:
+                intent = new Intent(MainActivity.this, DangKy.class);
+                startActivity(intent);
+                menu.findItem(R.id.nav_logout).setVisible(true);
+                menu.findItem(R.id.nav_login).setVisible(false);
+                menu.findItem(R.id.nav_register).setVisible(false);
+                break;
+
             case R.id.nav_login:
                 intent = new Intent(MainActivity.this, DangNhap.class);
                 startActivity(intent);
                 menu.findItem(R.id.nav_logout).setVisible(true);
                 menu.findItem(R.id.nav_login).setVisible(false);
+                menu.findItem(R.id.nav_register).setVisible(false);
                 break;
+
             case R.id.nav_logout:
-                menu.findItem(R.id.nav_logout).setVisible(false);
                 menu.findItem(R.id.nav_login).setVisible(true);
+                menu.findItem(R.id.nav_register).setVisible(true);
+                menu.findItem(R.id.nav_logout).setVisible(false);
                 break;
+
             case R.id.nav_thongtin:
                 intent = new Intent(MainActivity.this, ThongTinUngDung.class);
                 startActivity(intent);
                 break;
+
             case R.id.nav_hotro:
                 intent = new Intent(MainActivity.this, HoTro.class);
                 startActivity(intent);
+                break;
+
+            default:
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
